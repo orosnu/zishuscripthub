@@ -1,0 +1,787 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({IntroText = "Sa zort adam",Name = "Project PZ", HidePremium = false, SaveConfig = true, ConfigFolder = "Cathe is impostor sussy among us ur under fbi s3x oh mey gad"})
+
+--Value lar
+_G.Jump = false
+_G.JumpUse = false
+_G.Studs = false
+_G.StudsUse = false
+_G.Gem = false
+_G.GemUse = false
+_G.Luck = false
+_G.LuckUse = false
+_G.UltraLuckUse = false
+_G.Storage = false
+_G.Equip = false
+_G.Speed = false
+_G.AutoFarm = false
+_G.AutoFarm2 = false
+_G.AutoFarm3 = false
+_G.AutoFarm4 = false
+_G.AutoFarm5 = false
+_G.Rebirth = false
+_G.FastRebirth = false
+
+--function lar
+function Jump()
+    while _G.Jump == true do
+local ohString1 = "Jump"
+
+game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(ohString1)
+wait()
+end
+end
+function Rebirth()
+    while _G.Rebirth == true do
+game:GetService("ReplicatedStorage").Events.Rebirth:FireServer()
+wait(5)
+end
+end
+function JumpUse()
+    while _G.JumpUse == true do
+game:GetService("ReplicatedStorage").Events.JumpUse:FireServer()
+wait(2)
+end
+end
+function StudsUse()
+    while _G.StudsUse == true do
+game:GetService("ReplicatedStorage").Events.StudsUse:FireServer()
+wait(2)
+end
+end
+function GemUse()
+    while _G.StudsUse == true do
+game:GetService("ReplicatedStorage").Events.GemUse:FireServer()
+wait(2)
+end
+end
+function LuckUse()
+    while _G.LuckUse == true do
+game:GetService("ReplicatedStorage").Events.LuckUse:FireServer()
+wait(2)
+end
+end
+function UltraLuckUse()
+    while _G.UltraLuckUse == true do
+game:GetService("ReplicatedStorage").Events.UltraLuckUse:FireServer()
+wait(2)
+end
+end
+function Studs()
+    while _G.Studs == true do
+local ohString1 = "Studs"
+
+game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(ohString1)
+wait()
+end
+end
+function Gem()
+    while _G.Gem == true do
+local ohString1 = "Gem"
+
+game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(ohString1)
+wait()
+end
+end
+function Speed()
+    while _G.Speed == true do
+local ohString1 = "Speed"
+
+game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(ohString1)
+wait()
+end
+end
+function Equip()
+    while _G.Equip == true do
+local ohString1 = "Equip"
+
+game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(ohString1)
+wait()
+end
+end
+function Luck()
+    while _G.Luck == true do
+local ohString1 = "Luck"
+
+game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(ohString1)
+wait()
+end
+end
+function Storage()
+    while _G.Storage == true do
+local ohString1 = "Storage"
+
+game:GetService("ReplicatedStorage").Events.Upgrade:FireServer(ohString1)
+wait()
+end
+end
+--function auto
+function AutoFarm()
+    while _G.AutoFarm == true do
+        local tp_table = {
+            tp1 = Vector3.new(-441.460205, 195.073425, -379.825745, 0.464990586, 8.88110264e-07, 0.885315597, 1.24965283e-09, 1, -1.00381305e-06, -0.885315597, 4.67869938e-07, 0.464990586),
+	    tp32 = Vector3.new(-441.460205, 158.073425, -379.825745, 0.464990586, 8.88110264e-07, 0.885315597, 1.24965283e-09, 1, -1.00381305e-06, -0.885315597, 4.67869938e-07, 0.464990586),
+            tp3 = Vector3.new(-441.460205, 11161.073425, -379.825745, 0.464990586, 8.88110264e-07, 0.885315597, 1.24965283e-09, 1, -1.00381305e-06, -0.885315597, 4.67869938e-07, 0.464990586),
+        }
+        
+        local tween_s = game:GetService('TweenService')
+        local tweeninfo = TweenInfo.new(0.1,Enum.EasingStyle.Linear)
+        
+        local lp = game.Players.LocalPlayer
+        
+        function tween_tp(v)
+            if lp.Character and 
+            lp.Character:FindFirstChild('HumanoidRootPart') then
+                local cf = CFrame.new(v)
+                local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+                a:Play()
+                 a.Completed:Wait()
+            end
+        end
+        
+        tween_tp(tp_table.tp32)        
+        tween_tp(tp_table.tp1)
+wait()
+    while _G.AutoFarm == true do
+        tween_tp(tp_table.tp3)
+wait()
+end
+    end
+end        
+function AutoFarm2()
+    while _G.AutoFarm2 == true do
+        local tp_table = {
+            tp2 = Vector3.new(1365.82886, 195.101196, -903.250916, -0.890836537, 6.25402095e-08, -0.454323947, 4.89911898e-08, 1, 4.15938111e-08, 0.454323947, 1.47954164e-08, -0.8908365),
+            tp31 = Vector3.new(1365.82886, 158.101196, -903.250916, -0.890836537, 6.25402095e-08, -0.454323947, 4.89911898e-08, 1, 4.15938111e-08, 0.454323947, 1.47954164e-08, -0.8908365),
+            tp4 = Vector3.new(1365.82886, 100062.101196, -903.250916, -0.890836537, 6.25402095e-08, -0.454323947, 4.89911898e-08, 1, 4.15938111e-08, 0.454323947, 1.47954164e-08, -0.8908365),
+        }
+        
+        local tween_s = game:GetService('TweenService')
+        local tweeninfo = TweenInfo.new(0.1,Enum.EasingStyle.Linear)
+        
+        local lp = game.Players.LocalPlayer
+        
+        function tween_tp(v)
+            if lp.Character and 
+            lp.Character:FindFirstChild('HumanoidRootPart') then
+                local cf = CFrame.new(v)
+                local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+                a:Play()
+                 a.Completed:Wait()
+            end
+        end
+                
+        tween_tp(tp_table.tp31)
+        tween_tp(tp_table.tp2)
+        tween_tp(tp_table.tp31)
+        tween_tp(tp_table.tp2)
+        tween_tp(tp_table.tp31)
+        tween_tp(tp_table.tp2)
+        tween_tp(tp_table.tp31)
+        tween_tp(tp_table.tp2)
+        tween_tp(tp_table.tp31)
+        tween_tp(tp_table.tp2)
+        tween_tp(tp_table.tp31)
+        tween_tp(tp_table.tp2)
+        tween_tp(tp_table.tp31)
+        tween_tp(tp_table.tp2)
+wait()
+    while _G.AutoFarm2 == true do
+        tween_tp(tp_table.tp4)
+wait()
+end
+    end
+end        
+function AutoFarm3()
+    while _G.AutoFarm3 == true do
+        local tp_table = {
+            tp3 = Vector3.new(3236.95679, 195.912582, -1459.03821, 0.961033344, 0, 0.276432484, 0, 1, 0, -0.276432484, 0, 0.961033344),
+	    tp33 = Vector3.new(3236.95679, 158.912582, -1459.03821, 0.961033344, 0, 0.276432484, 0, 1, 0, -0.276432484, 0, 0.961033344),
+            tp5 = Vector3.new(3236.95679, 160002.912582, -1459.03821, 0.961033344, 0, 0.276432484, 0, 1, 0, -0.276432484, 0, 0.961033344),
+        }
+        
+        local tween_s = game:GetService('TweenService')
+        local tweeninfo = TweenInfo.new(0.1,Enum.EasingStyle.Linear)
+        
+        local lp = game.Players.LocalPlayer
+        
+        function tween_tp(v)
+            if lp.Character and 
+            lp.Character:FindFirstChild('HumanoidRootPart') then
+                local cf = CFrame.new(v)
+                local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+                a:Play()
+                 a.Completed:Wait()
+            end
+        end
+        
+	tween_tp(tp_table.tp33)
+        tween_tp(tp_table.tp3)
+	tween_tp(tp_table.tp33)
+        tween_tp(tp_table.tp3)
+	tween_tp(tp_table.tp33)
+        tween_tp(tp_table.tp3)
+	tween_tp(tp_table.tp33)
+        tween_tp(tp_table.tp3)
+	tween_tp(tp_table.tp33)
+        tween_tp(tp_table.tp3)
+	tween_tp(tp_table.tp33)
+        tween_tp(tp_table.tp3)
+	tween_tp(tp_table.tp33)
+        tween_tp(tp_table.tp3)
+wait()
+    while _G.AutoFarm3 == true do
+        tween_tp(tp_table.tp5)
+wait()
+end
+    end
+end        
+function AutoFarm4()
+    while _G.AutoFarm4 == true do
+        local tp_table = {
+            tp9 = Vector3.new(-2656, 195.912582, 269.787567, 0.961033344, 0, 0.276432484, 0, 1, 0, -0.276432484, 0, 0.961033344),
+	    tp99 = Vector3.new(-2656, 148.912582, 269.787567, 0.961033344, 0, 0.276432484, 0, 1, 0, -0.276432484, 0, 0.961033344),
+            tp17 = Vector3.new(-2656, 160002.912582, 269.787567, 0.961033344, 0, 0.276432484, 0, 1, 0, -0.276432484, 0, 0.961033344),
+        }
+        
+        local tween_s = game:GetService('TweenService')
+        local tweeninfo = TweenInfo.new(0.15,Enum.EasingStyle.Linear)
+        
+        local lp = game.Players.LocalPlayer
+        
+        function tween_tp(v)
+            if lp.Character and 
+            lp.Character:FindFirstChild('HumanoidRootPart') then
+                local cf = CFrame.new(v)
+                local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+                a:Play()
+                 a.Completed:Wait()
+            end
+        end
+        
+	tween_tp(tp_table.tp99)
+        tween_tp(tp_table.tp9)
+	tween_tp(tp_table.tp99)
+        tween_tp(tp_table.tp9)
+	tween_tp(tp_table.tp99)
+        tween_tp(tp_table.tp9)
+	tween_tp(tp_table.tp99)
+        tween_tp(tp_table.tp9)
+	tween_tp(tp_table.tp99)
+        tween_tp(tp_table.tp9)
+	tween_tp(tp_table.tp99)
+        tween_tp(tp_table.tp9)
+	tween_tp(tp_table.tp99)
+        tween_tp(tp_table.tp9)
+wait()
+    while _G.AutoFarm4 == true do
+        tween_tp(tp_table.tp17)
+wait()
+end
+    end
+end        
+
+function AutoFarm5()
+    while _G.AutoFarm5 == true do
+        local tp_table = {
+            tp65 = Vector3.new(5268.35254, 195, -2047),
+	    tp66 = Vector3.new(5268.35254, 158.912582, -2047.787567),
+            tp67 = Vector3.new(5268.35254, 160002.912582, -2047.567),
+        }
+        
+        local tween_s = game:GetService('TweenService')
+        local tweeninfo = TweenInfo.new(0.15,Enum.EasingStyle.Linear)
+        
+        local lp = game.Players.LocalPlayer
+        
+        function tween_tp(v)
+            if lp.Character and 
+            lp.Character:FindFirstChild('HumanoidRootPart') then
+                local cf = CFrame.new(v)
+                local a = tween_s:Create(lp.Character.HumanoidRootPart,tweeninfo,{CFrame=cf})
+                a:Play()
+                 a.Completed:Wait()
+            end
+        end
+        
+	tween_tp(tp_table.tp66)
+        tween_tp(tp_table.tp65)
+	tween_tp(tp_table.tp66)
+        tween_tp(tp_table.tp65)
+	tween_tp(tp_table.tp66)
+        tween_tp(tp_table.tp65)
+	tween_tp(tp_table.tp66)
+        tween_tp(tp_table.tp65)
+	tween_tp(tp_table.tp66)
+        tween_tp(tp_table.tp65)
+	tween_tp(tp_table.tp66)
+        tween_tp(tp_table.tp65)
+wait()
+    while _G.AutoFarm5 == true do
+        tween_tp(tp_table.tp67)
+wait()
+end
+    end
+end        
+--menü
+local PlayerTab = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local ShopTab = Window:MakeTab({
+	Name = "Uprades",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local PotionTab = Window:MakeTab({
+	Name = "Boosts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+PlayerTab:AddTextbox({
+	Name = "Name Changer",
+	Default = "Write Name",
+	TextDisappear = false,
+	Callback = function(Value)
+-- credits to 07granddad for making this
+while game:IsLoaded() == false do wait() end
+local fakeplr = {["Name"] = (Value), ["UserId"] = "3742966445"}
+local lplr = game:GetService("Players").LocalPlayer
+
+local function plrthing(obj, property)
+    for i,v in pairs(game:GetService("Players"):GetChildren()) do
+        if v ~= lplr then
+        else
+            obj[property] = obj[property]:gsub(v.Name, fakeplr["Name"])
+            obj[property] = obj[property]:gsub(v.DisplayName, fakeplr["Name"])
+            obj[property] = obj[property]:gsub(v.UserId, fakeplr["UserId"])
+        end
+    end
+end
+
+local function newobj(v)
+    if v:IsA("TextLabel") or v:IsA("TextButton") then
+        plrthing(v, "Text")
+        v:GetPropertyChangedSignal("Text"):connect(function()
+            plrthing(v, "Text")
+        end)
+    end
+    if v:IsA("ImageLabel") then
+        plrthing(v, "Image")
+        v:GetPropertyChangedSignal("Image"):connect(function()
+            plrthing(v, "Image")
+        end)
+    end
+end
+
+for i,v in pairs(game:GetDescendants()) do
+    newobj(v)
+end
+game.DescendantAdded:connect(newobj)
+end	
+})
+
+
+local FarmTab = Window:MakeTab({
+	Name = "Farm",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local ExploitTab = Window:MakeTab({
+	Name = "Gamepass Exp",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local CrTab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+FarmTab:AddTextbox({
+	Name = "AutoClicker (for afk)",
+	Default = "AutoCicker toggle keybind (type)",
+	TextDisappear = false,
+	Callback = function(Value)
+local time = 0.05 --decrease if too slow increase if too fast
+
+click = false
+m = game.Players.LocalPlayer:GetMouse()
+m.KeyDown:connect(function(key)
+if key == (Value) then
+if click == true then click = false
+elseif
+click == false then click = true
+
+while click == true do 
+wait(time)
+mouse1click()
+end
+end
+end
+end)
+end	
+})
+--buton
+ShopTab:AddToggle({
+	Name = "Auto Jump Buy",
+	Default = false,
+	Callback = function(Value)
+_G.Jump = Value 
+Jump() 
+    end
+})
+ShopTab:AddToggle({
+	Name = "Auto ExtraStud Buy",
+	Default = false,
+	Callback = function(Value)
+_G.Studs = Value 
+Studs() 
+    end
+})
+ShopTab:AddToggle({
+	Name = "Auto Speed Buy",
+	Default = false,
+	Callback = function(Value)
+_G.Speed = Value 
+Speed() 
+    end
+})
+ShopTab:AddToggle({
+	Name = "Auto Luck Buy",
+	Default = false,
+	Callback = function(Value)
+_G.Luck = Value 
+Luck() 
+    end
+})
+ShopTab:AddToggle({
+	Name = "Auto Gem Buy",
+	Default = false,
+	Callback = function(Value)
+_G.Gem = Value 
+Gem() 
+    end
+})
+ShopTab:AddToggle({
+	Name = "Auto Equip Buy",
+	Default = false,
+	Callback = function(Value)
+_G.Equip = Value 
+Equip() 
+    end
+})
+ShopTab:AddToggle({
+	Name = "Auto Storage Buy",
+	Default = false,
+	Callback = function(Value)
+_G.Storage = Value 
+Storage() 
+    end
+})
+PotionTab:AddToggle({
+	Name = "Auto Triple Gems! Use",
+	Default = false,
+	Callback = function(Value)
+_G.GemUse = Value 
+GemUse() 
+    end
+})
+PotionTab:AddToggle({
+	Name = "Auto Double Jump! Use",
+	Default = false,
+	Callback = function(Value)
+_G.JumpUse = Value 
+JumpUse() 
+    end
+})
+PotionTab:AddToggle({
+	Name = "Auto Double Studs! Use",
+	Default = false,
+	Callback = function(Value)
+_G.StudsUse = Value 
+StudsUse() 
+    end
+})
+PotionTab:AddToggle({
+	Name = "Auto Luck! Use",
+	Default = false,
+	Callback = function(Value)
+_G.LuckUse = Value 
+LuckUse() 
+    end
+})
+PotionTab:AddToggle({
+	Name = "Auto UltraLuck! Use",
+	Default = false,
+	Callback = function(Value)
+_G.UltraLuckUse = Value 
+UltraLuckUse() 
+    end
+})
+
+--farm lar
+FarmTab:AddToggle({
+	Name = "AutoFarm First World",
+	Default = false,
+	Callback = function(Value)
+_G.AutoFarm = Value 
+AutoFarm() 
+    end
+})
+FarmTab:AddToggle({
+	Name = "AutoFarm Space Area",
+	Default = false,
+	Callback = function(Value)
+_G.AutoFarm2 = Value 
+AutoFarm2() 
+    end
+})
+FarmTab:AddToggle({
+	Name = "AutoFarm Hell Area",
+	Default = false,
+	Callback = function(Value)
+_G.AutoFarm3 = Value 
+AutoFarm3() 
+    end
+})
+FarmTab:AddToggle({
+	Name = "AutoFarm Candy area",
+	Default = false,
+	Callback = function(Value)
+_G.AutoFarm5 = Value 
+AutoFarm5() 
+    end
+})
+PlayerTab:AddButton({
+	Name = "Anti esp (anti highlight)",
+	Callback = function()
+local Player = game:GetService("Players").LocalPlayer
+game:GetService("Workspace")[Player.Name].Highlight:Destroy()
+end 
+})
+PlayerTab:AddButton({
+	Name = "Always give speed",
+	Callback = function()
+game:GetService("Workspace").Hizlandirici.Size = Vector3.new(1000, 10, 1000)
+game:GetService("Workspace").HizlandiriciSpace.Size = Vector3.new(1000, 10, 1000)
+game:GetService("Workspace").HizlandiriciHell.Size = Vector3.new(1000, 10, 1000)
+end   
+})
+FarmTab:AddToggle({
+	Name = "Auto Rebirth",
+	Default = false,
+	Callback = function(Value)
+_G.Rebirth = Value 
+Rebirth() 
+    end
+})
+FarmTab:AddParagraph("Warn!","Sometimes it can broke bc gui cant find children")
+PlayerTab:AddParagraph("Warn!","Sometimes it can broke bc gui cant find children")
+CrTab:AddParagraph("Script made by!","Cips#9611")
+CrTab:AddParagraph("Our discord server:","https://discord.gg/zzxF82DHpX")
+function AddTag(plr, tag, color)
+	local Players = game:GetService("Players")
+	local ReplicatedStorage = game:GetService("ReplicatedStorage")
+	local Plr = plr
+	local ChatTag = {}
+	ChatTag[Plr] =
+		{
+			TagText = tag, 
+			TagColor = color,
+			NameColor = color
+		}
+
+
+
+	local oldchanneltab
+	local oldchannelfunc
+	local oldchanneltabs = {}
+
+	--// Chat Listener
+	for i, v in pairs(getconnections(ReplicatedStorage.DefaultChatSystemChatEvents.OnNewMessage.OnClientEvent)) do
+		if
+			v.Function
+			and #debug.getupvalues(v.Function) > 0
+			and type(debug.getupvalues(v.Function)[1]) == "table"
+			and getmetatable(debug.getupvalues(v.Function)[1])
+			and getmetatable(debug.getupvalues(v.Function)[1]).GetChannel
+		then
+			oldchanneltab = getmetatable(debug.getupvalues(v.Function)[1])
+			oldchannelfunc = getmetatable(debug.getupvalues(v.Function)[1]).GetChannel
+			getmetatable(debug.getupvalues(v.Function)[1]).GetChannel = function(Self, Name)
+				local tab = oldchannelfunc(Self, Name)
+				if tab and tab.AddMessageToChannel then
+					local addmessage = tab.AddMessageToChannel
+					if oldchanneltabs[tab] == nil then
+						oldchanneltabs[tab] = tab.AddMessageToChannel
+					end
+					tab.AddMessageToChannel = function(Self2, MessageData)
+						if MessageData.FromSpeaker and Players[MessageData.FromSpeaker] then
+							if ChatTag[Players[MessageData.FromSpeaker].Name] then
+								MessageData.ExtraData = {
+									NameColor = ChatTag[Players[MessageData.FromSpeaker].Name].NameColor
+										or Players[MessageData.FromSpeaker].TeamColor.Color,
+									Tags = {
+										table.unpack(MessageData.ExtraData.Tags),
+										{
+											TagColor = ChatTag[Players[MessageData.FromSpeaker].Name].TagColor,
+											TagText = ChatTag[Players[MessageData.FromSpeaker].Name].TagText,
+										},
+									},
+								}
+							end
+						end
+						return addmessage(Self2, MessageData)
+					end
+				end
+				return tab
+			end
+		end
+	end
+end
+ExploitTab:AddButton({
+	Name = "Get 99x stud gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112787976" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get 2x rebirth gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112786352" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get Unlock All Worlds gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112788263" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get Auto Rebirth gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112786409" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get +5 pet equip gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112786278" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get +3 pet equip gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112786223" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get 2x Gem gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112786546" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get Triple egg gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112787463" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get Fast Hatch gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112787263" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get Mythical luck gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112787142" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get Ultra luck gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 =  "112787045" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get +100 Storage gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112787728" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get Luck gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112786911" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get +50 Storage gamepass (2 wins)",
+	Callback = function()
+local ohNumber1 = "112787700" --game pass id
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+ExploitTab:AddButton({
+	Name = "Get VIP gamepass (2 wins)",
+	Callback = function()
+local ohString1 = "112785702"
+local ohInstance2 = game:GetService("Players").LocalPlayer.PlayerGui.Main.Frames.ShopFrame.Inventory.Gamepasses.kucukler["112786772"].Win.Price
+
+game:GetService("ReplicatedStorage").Events.BuyGamepass:FireServer(ohString1, ohInstance2)
+end 
+})
+while wait(12) do
+AddTag("KabasakaIHayati","Cips aga hile owner", Color3.fromRGB(151, 15, 229))
+AddTag("Leviiistaken","Levye Adam", Color3.fromRGB(0, 0, 0))
+AddTag("IlIlIlIIIlIlllllIl","Cips aga hile owner", Color3.fromRGB(151, 15, 229))
+AddTag("ZishuBabax","Sona ana silkici owner", Color3.fromRGB(151, 15, 229))
+end
+OrionLib:Init()
+
+task.wait(1)
